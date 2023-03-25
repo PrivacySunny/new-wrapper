@@ -1,7 +1,7 @@
 import React, {useState}from 'react'
 // import PropTypes from 'prop-types'
 import { Link } from "react-router-dom";
-import DarkModeToggle from './DarkModeToggle';
+// import DarkModeToggle from './DarkModeToggle';
 // import { useState } from "react";
 
 const Navbar = () => {
@@ -76,7 +76,7 @@ const Navbar = () => {
                             <input className="form-control me-2" type="text" onChange = {HandleOnChange} placeholder="Search" aria-label="Search" />
                             <button className="btn btn-outline-success" type='submit'>Search</button>
                         </form>
-                        <DarkModeToggle />
+                        {/* <DarkModeToggle /> */}
                     </div>
                 </div>
             </nav>
